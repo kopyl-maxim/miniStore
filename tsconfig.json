@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react-jsx",
+    // Используется для React 17+
+    "jsxImportSource": "react",
+    // Для автоматического импорта JSX
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src",
+    "src/declaration.d.ts",
+  ]
+}

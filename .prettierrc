@@ -1,0 +1,23 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "tabWidth": 4,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.styles.ts",
+      "options": {
+        "singleQuote": true,
+        "tabWidth": 2,
+        "semi": false,
+        "arrowParens": "avoid",
+        "endOfLine": "lf"
+      }
+    }
+  ]
+}
