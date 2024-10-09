@@ -12,8 +12,8 @@ const HeaderInfoSection: React.FC<Props> = ({ text, path }) => {
     const classes = useStyles();
     return (
         <Box className={classes.container}>
-            <Box>{text}</Box>
-            <Box>{path}</Box>
+            <Box className={classes.label}>{text}</Box>
+            <Box className={classes.pathText}>{path}</Box>
         </Box>
     );
 };

@@ -17,7 +17,7 @@ const Header: React.FC<Props> = () => {
     return (
         <Box className={classes.container}>
             <Box className={classes.navbarContainer}>
-                <Box>
+                <Box alignItems='center' display='flex'>
                     <Link className={classes.navbarBrand} to={'/'}>
                         MiniStore
                         <Box color="#717171">.</Box>
